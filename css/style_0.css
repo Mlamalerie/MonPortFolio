@@ -1,0 +1,31 @@
+body {
+
+    background-color: whitesmoke;
+}
+
+/*** DARK MODE ***/
+@media (prefers-color-scheme: dark) {
+    html {
+        filter: invert(99%);
+    } 
+
+
+    img  {
+        filter: hue-rotate(-10deg) grayscale(10%) invert(99%);
+
+    }
+
+ .site-footer,.overlay  {
+        filter: invert(99%);
+
+    }
+
+    /*
+    .text-primary {
+    filter: invert(99%);
+}
+    */
+}
+
+
+
